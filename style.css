@@ -1,0 +1,43 @@
+body{
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	background-color: #97b4fc;
+	padding: 20px;
+}
+.caixa-formulario{
+	width: 400px;
+	margin: 0 auto;
+	
+	background-color: #ffffff;
+	border: 1px  solid #cccccc;
+	padding: 25px;
+}
+h1{
+    text-align: center;
+    color:#49f2ce;
+}
+
+p{
+    text-align:	center;
+	color: #4484f2;
+}
+
+label,
+input,
+textarea,
+button{
+    display: block;
+}
+label{
+    margin-top: 15px ;
+    margin-bottom: 5px;
+    font-weight: bold;
+	color:#1ccde8;
+}
+input,
+textarea{
+    padding: 8px;
+}
+button{
+    margin-top: 20px;
+    padding: 10px;
+}	
