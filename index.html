@@ -1,71 +1,124 @@
 <!DOCTYPE html>
 <html>
-    <head> 
-        <title>samuel-formulário</title>
+<head>
+    <title>Pagina Pessoal Samuel Lucas Cordeiro Alves dos Santos </title>
+</head>
 <style>
-   body{
-	font-family: Brush Script MT, Brush Script Std, cursive;
-	background-color: #97b4fc;
-	padding: 20px;
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.caixa-formulario{
-	width: 400px;
-	margin: 0 auto;
-	
-	background-color: #ffffff;
-	border: 1px  solid #cccccc;
-	padding: 25px;
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
 }
-h1{
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
     text-align: center;
-    color:#49f2ce;
 }
 
-p{
-    text-align:	center;
-	color: #4484f2;
+
+header h1 {
+    margin-bottom: 10px;
 }
 
-label,
-input,
-textarea,
-button{
-    display: block;
+
+nav ul {
+    list-style: none;
+} 
+
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
 }
-label{
-    margin-top: 15px ;
-    margin-bottom: 5px;
-    font-weight: bold;
-	color:#1ccde8;
+
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
 }
-input,
-textarea{
-    padding: 8px;
+
+
+section {
+    margin: 20px 0;
 }
-button{
+section#sobre, 
+section#projetos, 
+section#contato {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+footer {
+    text-align: center;
     margin-top: 20px;
-    padding: 10px;
-}	
+}
+
+
 </style>
-    </head>
-    <body>                        
-	    <h1>Formulário</h1>           
-		<p>Deixe aqui sua Dúvida</p>                        
-	    
-		<form>
-		<label for="nome-usuario"> 1.Nome:</label>
-		<input type="text" id="nome-usuario" placeholder="digite aqui seu nome...">
-	   
-		<label for="email"> 2.E-mail:</label>
-		<input type="text" id="email" placeholder="digite seu email...">
-		
-		<label for="msg-usuario">3.Mensagem:</label>
-		<textarea id="msg-usuario"></textarea>
-        
-		<button type="submit">Enviar</button>
-		
-		</form>
-		    </div>
-    </body>
+<body>
+    <header>
+        <h1>Samuel Lucas Cordeiro Alves dos Santos</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Sou Aluno da Escola Fidélis Antônio Fantin Gosto de jogar jogos de tiro em primeira pessoa 
+         
+
+
+          conhecimento em criar projetos que ajudam as pessoas a aprender e crescer.</p>
+    </section>
+
+
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <ul>
+            <li>Projeto 1: <a href="#">Descrição do Projeto 1</a></li>
+            <li>Projeto 2: <a href="#">Descrição do Projeto 2</a></li>
+            <li>Projeto 3: <a href="#">Descrição do Projeto 3</a></li>
+              <li>Projeto 2: <a href="#">Descrição do Projeto 2</a></li>
+            <li>Projeto 3: <a href="#">Descrição do Projeto 3</a></li>
+                        <li>Projeto 3: <a href="#">Descrição do Projeto 3</a></li>
+              <li>Projeto 2: <a href="#">Descrição do Projeto 2</a></li>
+            <li>Projeto 3: <a href="#">Descrição do Projeto 3</a></li>
+        </ul>
+    </section>
+
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato comigo via <a href="mailto:e-mail@gmail.com">e-mail@gmail.com</a>.</p>
+    </section>
+
+
+    <footer>
+        <p>&copy; @2025 - Fulano de Tal</p>
+    </footer>
+</body>
 </html>
+
+
 
